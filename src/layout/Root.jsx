@@ -1,11 +1,13 @@
-import { Outlet } from "react-router"
+import './Root.css'
+import { Outlet, NavLink } from "react-router"
 
 const Root = () => (
 	<div className="app">
 		<header>
 			<h1> Space images </h1>
 			<nav>
-				nav här!
+				<NavLink to="/"> Home </NavLink>
+				<NavLink to="/gallery"> Gallery </NavLink>
 			</nav>
 		</header>
 		<main>

@@ -1,0 +1,28 @@
+.app {
+	background-color: rgb(27, 26, 44);
+	/* color */
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+
+
+	header {
+		padding: 0.5em 2em;
+
+		h1 {
+			margin: 0;
+		}
+
+		nav {
+			display: flex;
+			flex-direction: row;
+			gap: 1em;
+			margin-top: 0.4em;
+		}
+	}
+
+	main {
+		background-color: rgb(54, 51, 74);
+		flex-grow: 1;
+	}
+}
