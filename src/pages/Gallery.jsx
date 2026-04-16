@@ -8,7 +8,7 @@ const Gallery = () => {
 		<div className="gallery-page">
 			{media.map(img => (
 				<section key={img.id} className="img-card">
-					<img src={'/media/' + img.src} alt={img.title} />
+					<img src={'./media/' + img.src} alt={img.title} />
 					<h3> {img.title} </h3>
 					<a href={img.url}> More information... </a>
 				</section>
